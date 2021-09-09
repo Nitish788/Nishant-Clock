@@ -6,24 +6,7 @@
 
 body {
     background-color: #091921;
-    /* height: 100vh;
-    width: 100vw; */
     min-height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-
-/* input[type="button"] {
-    position: relative;
-    bottom: 161px;
-    left: -67px;
-} */
-
-input.btn-light {
-    position: relative;
-    left: -136px;
 }
 
 .clock {
@@ -45,23 +28,21 @@ input.btn-light {
 .clock::before {
     content: "";
     position: absolute;
-    height: 15px;
-    width: 15px;
-    background-color: white;
-    border: 2px solid #af162f;
+    height: 13px;
+    width: 13px;
+    background-color: #fbfeff;
+    border: 2px solid #091921;
     border-radius: 50%;
-    z-index: -1;
+    z-index: 1;
 }
 
 .hour {
     position: relative;
-}
-
-.hour {
     bottom: 47.5px;
     height: 87px;
+    left: 2px;
     width: 5px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-color: red;
     border-radius: 6px 6px 0 0;
     transform-origin: bottom;
@@ -72,10 +53,7 @@ input.btn-light {
     bottom: 190px;
     height: 105px;
     width: 5px;
-    /* position: relative;
-    bottom: 55px;
-    left: -3px; */
-    border: 2px solid white;
+    /* border: 2px solid white; */
     background-color: white;
     border-radius: 6px 6px 0 0;
     transform-origin: bottom;
@@ -85,8 +63,9 @@ input.btn-light {
     position: relative;
     bottom: 75px;
     height: 150px;
+    left: -2.42px;
     width: 3px;
-    border: 2px solid rgb(121, 169, 240);
+    /* border: 2px solid rgb(121, 169, 240); */
     background-color: rgb(102, 177, 238);
     border-radius: 3px 3px 0 0;
     transform-origin: bottom;
